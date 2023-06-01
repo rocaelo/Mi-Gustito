@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MI GUSTITOS</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="menu container">
+        <a href="a" class="logo">BEEF</a>
+        <input type="checkbox" id="menu" />
+        <label for="menu"><img src="menu.png.png" class="menu-icono" alt="menu"/></label>
+        <nav class="navbar">
+          <ul>
+            <li><a href="">INICIO</a></li>
+            <li><a href="">SERVICIOS</a></li>
+            <li><a href="">PRODUCTOS</a></li>
+            <li><a href="">RESERVACIONES</a></li>
+            <li><a href="">CONTACTO</a></li>
+          </ul>
+        </nav>
+
+        <div>
+          <ul>
+            <li class="submenu">
+              <img src="car.png.svg" id="img-carrito" alt="" />
+              <div id="carrito">
+                <table id="lista-carrito">
+                  <thead>
+                    <tr>
+                      <th>Imagen</th>
+                      <th>Nombre</th>
+                      <th>Precio</th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody></tbody>
+                </table>
+                <a href="#" id="vaciar-carrito" class="btn-2">Vaciar Carrito</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="header-content container">
+        <h1> Cafetería "MI GUSTITO"</h1>
+        <p>
+          Cafetería "MI GUSTITO" no solo es un lugar para comer y listo, nosotros somos a quien le gusta servir a nuestros clientes con alimentos de alta calidad, en lo que ofrecemos son: Desayunos, Refacciones y Almuerzos.
+          Nos encanta ver a nuestros clientes que digieren nuestra comida con una sonrisa en su rostro y comentar comentarios positivos, al ver la expresión de ellos nos 
+          motiva a seguir mejorando y emprender nuestro café a muchos lugares.
+        </p>
+        <div class="botons">
+          <a href="#" class="btn-1">Mas Información</a>
+          <a href="#" class="btn-1">Menu</a>
+        </div>
+        <div class="socials-1">
+          <img src="s1.png.svg" alt="" />
+          <img src="s2.png.svg" alt="" />
+          <img src="s3.png.svg" alt="" />
+        </div>
+        <a href="#lista">
+          <img class="arrow" src="arrow.png.svg" alt="" />
+        </a>
+      </div>
+    </header>
+
+    <section class="recetas container">
+      <div class="recetas-1">
+        <h3>FRAPPÉ COFFEE  &  HEALTHY FOOD</h3>
+        <hr>
+        <p>Una delicia a que usted siempre querra venir a comer de nuestros deliciosos platillos, además
+          puede invitar a familiares y amigos.
+        </p>
+      </div>
+      <div class="recetas-2">
+        <h2>
+          Desayunos<br>
+          y <br>
+          Refacciones
+        </h2>
+      </div>
+    </section>
+
+    <section class="platillos container" id="lista">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="platillo">
+              <h3>White Chocolate Frappiato</h3>
+              <p class="precio">Q28.00</p>
+              <img src="imagenes/IMG_7089 6.png" alt="" />
+              <p>
+                Hielo frappé y café espresso con 
+                sabor a chocolate blanco y crema batida. 12 oz. TIPOS DE LECHE: Leche Entera,
+                Leche Descremada y
+                Leche Deslactosada.
+              </p>
+              <a href="#" class="agregar-carrito btn-2" data-id="1"
+                >Agregar al Carrito</a
+              >
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="platillo">
+              <h3>Pasta Ina</h3>
+              <p class="precio">Q25.50</p>
+              <img src="Imagenes/apa.png" alt="" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Temporibus quidem, vitae pariatur sapiente fuga delectus aliquam
+                dolore rem quo eveniet reiciendis, necessitatibus tempora
+                mollitia vel atque ab quis dolores recusandae!
+              </p>
+              <a href="#" class="agregar-carrito btn-2" data-id="2"
+                >Agregar al Carrito</a
+              >
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="platillo">
+              <h3>Corte americano</h3>
+              <p class="precio">Q25.50</p>
+              <img src="kosherbakery.png" alt="" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Temporibus quidem, vitae pariatur sapiente fuga delectus aliquam
+                dolore rem quo eveniet reiciendis, necessitatibus tempora
+                mollitia vel atque ab quis dolores recusandae!
+              </p>
+              <a href="#" class="agregar-carrito btn-2" data-id="3"
+                >Agregar al Carrito</a
+              >
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="platillo">
+              <h3>Corte americano</h3>
+              <p class="precio">Q25.50</p>
+              <img src="brishcoffee.png" alt="" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Temporibus quidem, vitae pariatur sapiente fuga delectus aliquam
+                dolore rem quo eveniet reiciendis, necessitatibus tempora
+                mollitia vel atque ab quis dolores recusandae!
+              </p>
+              <a href="#" class="agregar-carrito btn-2" data-id="4"
+                >Agregar al Carrito</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section class="recetas container">
+      <div class="recetas-2">
+        <h2>
+          Almuerzos
+        </h2>
+      </div>
+      <div class="recetas-1">
+        <h3>Barriga llena, corazón contento.</h3>
+        <hr />
+        <p>Una delicia para ti y para tu corazón que te hace el día uno mejor.</p>
+      </div>
+    </section>
+
+    <section class="platillos container" id="lista-2">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="platillo">
+              <h3 class="c1">Corte americano</h3>
+              <p class="precio">Q25.50</p>
+              <img src="love.png" alt="" />
+              <p class="c2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Temporibus quidem, vitae pariatur sapiente fuga delectus aliquam
+                dolore rem quo eveniet reiciendis, necessitatibus tempora
+                mollitia vel atque ab quis dolores recusandae!
+              </p>
+              <a href="#" class="agregar-carrito btn-3" data-id="5"
+                >Agregar al Carrito</a
+              >
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="platillo">
+              <h3 class="c1">Corte americano</h3>
+              <p class="precio">Q25.50</p>
+              <img src="recipe.png" alt="" />
+              <p class="c2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Temporibus quidem, vitae pariatur sapiente fuga delectus aliquam
+                dolore rem quo eveniet reiciendis, necessitatibus tempora
+                mollitia vel atque ab quis dolores recusandae!
+              </p>
+              <a href="#" class="agregar-carrito btn-3" data-id="6"
+                >Agregar al Carrito</a
+              >
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="platillo">
+              <h3 class="c1">Corte americano</h3>
+              <p class="precio">Q25.50</p>
+              <img src="tale.png" alt="" />
+              <p class="c2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Temporibus quidem, vitae pariatur sapiente fuga delectus aliquam
+                dolore rem quo eveniet reiciendis, necessitatibus tempora
+                mollitia vel atque ab quis dolores recusandae!
+              </p>
+              <a href="#" class="agregar-carrito btn-3" data-id="7"
+                >Agregar al Carrito</a
+              >
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="platillo">
+              <h3 class="c1">Corte americano</h3>
+              <p class="precio">Q25.50</p>
+              <img src="brishcoffee.png" alt="" />
+              <p class="c2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Temporibus quidem, vitae pariatur sapiente fuga delectus aliquam
+                dolore rem quo eveniet reiciendis, necessitatibus tempora
+                mollitia vel atque ab quis dolores recusandae!
+              </p>
+              <a href="#" class="agregar-carrito btn-3" data-id="8"
+                >Agregar al Carrito</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section class="recetas container">
+      <div class="recetas-1">
+        <hr />
+        <p>Contacto</p>
+      </div>
+    </section>
+
+    <footer class="footer container">
+      <div class="links">
+        <div class="link">
+          <h3>Historia</h3>
+          <p>
+           Todo Comenzo sobre un adulto de 35 años en que estaba en banca rota, pero tenía un terreno 
+           lleno de café y el penso en que si hiciera una Cafetería podria en tener una buena economía
+           y al pasar de los meses, no tuvo mucho exito, pero, un empresario vino a la cafetería de el 
+           y desidio tomar un vaso de café y al tomarlo, el empresario desidio emprender el negocio al hombre
+           "Daniel Juarez".
+          </p>
+          <div class="socials-2">
+            <img src="s1.png.svg" alt="" />
+            <img src="s2.png.svg" alt="" />
+            <img src="s3.png.svg" alt="" />
+          </div>
+        </div>
+
+        <div class="link">
+          <h3>Redes Sociales</h3>
+          <ul>
+            <li><a href="https://instagram.com/mi_gustito16?igshid=MzRlODBiNWFlZA==">Instagram</a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=100093080087023&mibextid=LQQJ4d">Facebook</a></li>
+          
+          </ul>
+        </div>
+
+
+        <div class="link">
+          <h3>Lorem</h3>
+          <form>
+            <input type="text" placeholder="Nombre" class="inp" />
+            <input type="email" placeholder="Email" class="inp" />
+            <textarea class="inp"></textarea>
+            <input class="btn-4" type="sumbit" value="Enviar" />
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
